@@ -26,6 +26,3 @@ ggplot(data = penguins) +
 ggplot(data = penguins) + 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, colour = species, shape = island))+
   facet_grid(species ~ island)
-
-usethis::create_github_token()
-gitcreds::gitcreds_set()
